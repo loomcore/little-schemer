@@ -28,4 +28,4 @@
       ((null? (car l)) (firsts (cdr l)))
       (else (cons (car (car l))
                   (firsts (cdr l)))))))
-;; page 47
+;; Page 47
