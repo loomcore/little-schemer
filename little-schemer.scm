@@ -28,7 +28,6 @@
       ((null? (car l)) (firsts (cdr l)))
       (else (cons (car (car l))
                   (firsts (cdr l)))))))
-<<<<<<< HEAD
 
 (define insertR
   (λ (new old lat)
@@ -62,6 +61,3 @@
                       (subst2 new o1 o2 (cdr lat)))))))
 
 ;; page 53
-=======
-;; Page 47
->>>>>>> 6091f98ffe5e67bb2b21b7e89d5a4be794c80885
